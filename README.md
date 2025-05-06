@@ -1,1 +1,1 @@
-# cursovoi
+открывать через Live server
