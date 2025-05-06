@@ -1,0 +1,277 @@
+footer .footer-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+footer .footer-container div {
+  flex: 1;
+  padding: 10px;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 15px 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+a {
+  font-size: 26px;
+  color: inherit;
+  text-decoration: none;
+}
+
+header {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 15px 0;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  position: relative;
+}
+
+nav ul li a {
+  color: #fff;
+  padding: 10px 15px;
+  display: block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #444;
+  border-radius: 8px;
+  z-index: 100;
+}
+
+.dropdown-content li a {
+  font-size: 18px;
+  padding: 12px 16px;
+  color: #fff;
+  display: block;
+}
+
+.dropdown-content li a:hover {
+  background-color: #555;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+nav ul li a {
+  position: relative;
+  color: #fff;
+  padding: 10px 15px;
+  display: block;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+nav ul li a::after {
+  content: "";
+  position: absolute;
+  bottom: 5px;
+  left: 15%;
+  width: 70%;
+  height: 2px;
+  background: #1e74f5;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: rgba(240, 16, 16, 0.9098039216);
+  transform: translateY(-2px);
+}
+
+nav ul li a:hover::after {
+  transform: scaleX(1);
+}
+
+.products-section {
+  padding: 20px 0;
+}
+
+.products-wrapper {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.filters {
+  flex: 0 0 250px;
+  background: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.filters h3 {
+  margin-top: 0;
+}
+
+.filter-block {
+  margin-bottom: 15px;
+}
+
+.product-list {
+  flex: 1;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: #f9f9f9;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  z-index: 10;
+}
+
+.product img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.product h3 {
+  margin: 10px 0 5px;
+}
+
+.product p {
+  color: #333;
+  margin: 0 0 10px;
+}
+
+.product button {
+  background: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: auto;
+  position: relative;
+  z-index: 2;
+}
+
+.product button:hover {
+  background: #0056b3;
+}
+
+.product-details {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  box-sizing: border-box;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+  text-align: left;
+}
+
+.product:hover .product-details {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.product-details ul,
+.product-details p {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  list-style: none;
+  text-align: left;
+}
+
+@media (max-width: 1023px) {
+  .products-wrapper {
+    flex-direction: column;
+  }
+  .filters {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .products {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (max-width: 768px) {
+  .products {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .filters {
+    width: 100%;
+  }
+  .product {
+    padding: 10px;
+  }
+  .product h3 {
+    font-size: 16px;
+  }
+  .product p,
+  .product button {
+    font-size: 14px;
+  }
+}
+
+/*# sourceMappingURL=katalog.css.map */

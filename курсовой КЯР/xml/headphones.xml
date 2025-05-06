@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<products>
+    <product id="13">
+        <name>Sony WH-1000XM5</name>
+        <price>1500</price>
+        <image>images/sonywh.jpg</image>
+        <details>
+            <spec>Шумоподавление: адаптивное</spec>
+            <spec>Время работы: до 30 часов</spec>
+            <spec>Подключение: Bluetooth 5.2</spec>
+            <spec>Особенности: сенсорное управление, поддержка голосовых ассистентов</spec>
+        </details>
+    </product>
+    <product id="14">
+        <name>Bose QuietComfort Ultra</name>
+        <price>1600</price>
+        <image>images/bosequiet.jpg</image>
+        <details>
+            <spec>Шумоподавление: активное</spec>
+            <spec>Время работы: до 24 часов</spec>
+            <spec>Подключение: Bluetooth 5.1</spec>
+            <spec>Особенности: режим прозрачности, складная конструкция</spec>
+        </details>
+    </product>
+    <product id="15">
+        <name>Apple AirPods Max</name>
+        <price>2400</price>
+        <image>images/airpods max.jpg</image>
+        <details>
+            <spec>Шумоподавление: активное</spec>
+            <spec>Время работы: до 20 часов</spec>
+            <spec>Подключение: Bluetooth 5.0</spec>
+            <spec>Особенности: пространственное аудио, интеграция с устройствами Apple</spec>
+        </details>
+    </product>
+    <product id="16">
+        <name>Sennheiser Momentum 4</name>
+        <price>1800</price>
+        <image>images/SennheiserMomentum4.jpg</image>
+        <details>
+            <spec>Шумоподавление: активное</spec>
+            <spec>Время работы: до 60 часов</spec>
+            <spec>Подключение: Bluetooth 5.2</spec>
+            <spec>Особенности: сенсорное управление, поддержка кодеков aptX</spec>
+        </details>
+    </product>
+    <product id="17">
+        <name>Bang &amp; Olufsen Beoplay HX</name>
+        <price>2200</price>
+        <image>images/Bang &amp; Olufsen Beoplay HX.jpg</image>
+        <details>
+            <spec>Шумоподавление: активное</spec>
+            <spec>Время работы: до 35 часов</spec>
+            <spec>Подключение: Bluetooth 5.1</spec>
+            <spec>Особенности: премиальные материалы, мультипоинт-соединение</spec>
+        </details>
+    </product>
+    <product id="18">
+        <name>Samsung Galaxy Buds 2 Pro</name>
+        <price>580</price>
+        <image>images/samsungbuds.jpg</image>
+        <details>
+            <spec>Шумоподавление: ANC</spec>
+            <spec>Поддержка: 24-битный Hi-Fi звук</spec>
+            <spec>Защита: IPX7</spec>
+            <spec>Время работы: до 29 часов с кейсом</spec>
+        </details>
+    </product>
+    <product id="19">
+        <name>Nothing Ear (2)</name>
+        <price>520</price>
+        <image>images/nothingear.webp</image>
+        <details>
+            <spec>Шумоподавление: До 40 дБ ANC</spec>
+            <spec>Звук: 11.6 мм динамики, Hi-Res Audio</spec>
+            <spec>Подключение: Bluetooth 5.3, мультипоинт</spec>
+            <spec>Время работы: до 36 ч с кейсом</spec>
+        </details>
+    </product>
+    <product id="20">
+        <name>JBL Live Pro 2</name>
+        <price>480</price>
+        <image>images/jbl.webp</image>
+        <details>
+            <spec>Шумоподавление: True Adaptive ANC</spec>
+            <spec>Звук: JBL Signature Sound, 11 мм драйверы</spec>
+            <spec>Защита: IPX5 (влагозащита)</spec>
+            <spec>Время работы: до 40 ч с кейсом</spec>
+        </details>
+    </product>
+    <product id="21">
+        <name>Shure SM7B</name>
+        <price>1600</price>
+        <image>images/shure.webp</image>
+        <details>
+            <spec>Тип: Динамический</spec>
+            <spec>Подключение: XLR</spec>
+            <spec>Частотный диапазон: 50–20000 Гц</spec>
+            <spec>Особенности: Подавление шума, широкое звучание</spec>
+        </details>
+    </product>
+    <product id="22">
+        <name>Blue Yeti USB</name>
+        <price>750</price>
+        <image>images/blue.jpg</image>
+        <details>
+            <spec>Тип: Конденсаторный USB</spec>
+            <spec>Модели направленности: Кардиоида, всенаправленный и др.</spec>
+            <spec>Подключение: USB</spec>
+            <spec>Особенности: Подходит для подкастов и стримов</spec>
+        </details>
+    </product>
+    <product id="23">
+        <name>Rode NT1 (5th Gen)</name>
+        <price>1100</price>
+        <image>images/rode.jpg</image>
+        <details>
+            <spec>Тип: Конденсаторный XLR/USB</spec>
+            <spec>Частотный диапазон: 20–20000 Гц</spec>
+            <spec>Особенности: Студийное качество, низкий шум</spec>
+        </details>
+    </product>
+    <product id="24">
+        <name>FIFINE K658 RGB</name>
+        <price>500</price>
+        <image>images/fifine.jpg</image>
+        <details>
+            <spec>Тип: Динамический USB</spec>
+            <spec>Подключение: USB-C</spec>
+            <spec>Особенности: RGB-подсветка, стриминг/подкасты</spec>
+        </details>
+    </product>
+</products>

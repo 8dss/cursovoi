@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<products>
+    <product id="1">
+        <name>Samsung Galaxy A12</name>
+        <price>700</price>
+        <image>images/samsung_a12.jpg</image>
+        <details>
+            <spec>Дисплей: 6.5", PLS LCD</spec>
+            <spec>Процессор: Helio P35</spec>
+            <spec>Камера: 48 МП</spec>
+            <spec>Батарея: 5000 мА·ч</spec>
+        </details>
+    </product>
+    <product id="2">
+        <name>Apple iPhone 13</name>
+        <price>1700</price>
+        <image>images/iphone13.jpg</image>
+        <details>
+            <spec>Дисплей: 6.1", OLED</spec>
+            <spec>Процессор: A15 Bionic</spec>
+            <spec>Камера: 12 МП</spec>
+            <spec>Батарея: 3240 мА·ч</spec>
+        </details>
+    </product>
+    <product id="3">
+        <name>Xiaomi Redmi Note 11</name>
+        <price>800</price>
+        <image>images/xiaomi11.jpg</image>
+        <details>
+            <spec>Дисплей: 6.43", AMOLED</spec>
+            <spec>Процессор: Snapdragon 680</spec>
+            <spec>Камера: 50 МП</spec>
+            <spec>Батарея: 5000 мА·ч</spec>
+        </details>
+    </product>
+    <product id="4">
+        <name>Realme 9</name>
+        <price>1050</price>
+        <image>images/realme9.webp</image>
+        <details>
+            <spec>Дисплей: 6.4", Super AMOLED</spec>
+            <spec>Процессор: Snapdragon 680</spec>
+            <spec>Камера: 108 МП</spec>
+            <spec>Батарея: 5000 мА·ч</spec>
+        </details>
+    </product>
+    <product id="5">
+        <name>Honor X8</name>
+        <price>950</price>
+        <image>images/honorx8.jpg</image>
+        <details>
+            <spec>Дисплей: 6.7", IPS LCD</spec>
+            <spec>Процессор: Snapdragon 680</spec>
+            <spec>Камера: 64 МП</spec>
+            <spec>Батарея: 4000 мА·ч</spec>
+        </details>
+    </product>
+    <product id="6">
+        <name>Samsung M21</name>
+        <price>900</price>
+        <image>images/samsungm21.jpg</image>
+        <details>
+            <spec>Дисплей: 6.4", Super AMOLED</spec>
+            <spec>Процессор: Exynos 9611</spec>
+            <spec>Камера: 48 МП</spec>
+            <spec>Батарея: 6000 мА·ч</spec>
+        </details>
+    </product>
+    <product id="7">
+        <name>Apple iPhone 14</name>
+        <price>2400</price>
+        <image>images/iphone.webp</image>
+        <details>
+            <spec>Дисплей: 6.1", OLED</spec>
+            <spec>Процессор: A15 Bionic</spec>
+            <spec>Камера: 12 МП</spec>
+            <spec>Батарея: 3279 мА·ч</spec>
+        </details>
+    </product>
+    <product id="8">
+        <name>Xiaomi 11T</name>
+        <price>950</price>
+        <image>images/xiaomi11t.jpg</image>
+        <details>
+            <spec>Дисплей: 6.67", AMOLED</spec>
+            <spec>Процессор: Dimensity 1200</spec>
+            <spec>Камера: 108 МП</spec>
+            <spec>Батарея: 5000 мА·ч</spec>
+        </details>
+    </product>
+    <product id="9">
+        <name>Samsung Galaxy Tab S7</name>
+        <price>2500</price>
+        <image>images/tabs7.jpg</image>
+        <details>
+            <spec>Дисплей: 11.0", 1600x2560 пикселей</spec>
+            <spec>Камера: 13 МП (основная), 8 МП (фронтальная)</spec>
+            <spec>Батарея: 8000 мАч</spec>
+        </details>
+    </product>
+    <product id="10">
+        <name>Apple iPad Air (2022)</name>
+        <price>2800</price>
+        <image>images/ipad.webp</image>
+        <details>
+            <spec>Дисплей: 10.9", Liquid Retina</spec>
+            <spec>Камера: 12 МП (основная), 12 МП (фронтальная)</spec>
+            <spec>Чип: Apple M1</spec>
+        </details>
+    </product>
+    <product id="11">
+        <name>Xiaomi Pad 5</name>
+        <price>2200</price>
+        <image>images/pad5.jpg</image>
+        <details>
+            <spec>Дисплей: 11.0", 1600x2560 пикселей</spec>
+            <spec>Камера: 13 МП (основная), 8 МП (фронтальная)</spec>
+            <spec>Батарея: 8720 мАч</spec>
+        </details>
+    </product>
+    <product id="12">
+        <name>Lenovo Tab P11</name>
+        <price>1800</price>
+        <image>images/lenovotab.jpg</image>
+        <details>
+            <spec>Дисплей: 11.0", 1200x2000 пикселей</spec>
+            <spec>Камера: 13 МП (основная), 8 МП (фронтальная)</spec>
+            <spec>Батарея: 7700 мАч</spec>
+        </details>
+    </product>
+</products>

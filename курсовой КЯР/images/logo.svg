@@ -1,0 +1,13 @@
+
+<svg width="500" height="500" viewBox="0 0 500 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="500" height="500" fill="black"/>
+  
+  <!-- Rainbow Arcs -->
+  <path d="M125,200 A125,125 0 0,1 375,200" stroke="white" stroke-width="8" fill="none"/>
+  <path d="M150,200 A100,100 0 0,1 350,200" stroke="white" stroke-width="8" fill="none"/>
+  <path d="M175,200 A75,75 0 0,1 325,200" stroke="white" stroke-width="8" fill="none"/>
+
+  <!-- Text 20STORE -->
+  <text x="80" y="320" font-family="monospace" font-size="60" fill="white" font-weight="bold">20STORE</text>
+</svg>

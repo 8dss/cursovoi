@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<products>
+    <product id="101">
+        <name>iPhone 16 Pro</name>
+        <oldprice>3800</oldprice>
+        <newprice>2500</newprice>
+        <image>images/iphone16pro.webp</image>
+        <alt>iPhone 16 Pro</alt>
+        <features>
+            <feature>Дисплей: 6.1", OLED</feature>
+            <feature>Чип: A18 Pro</feature>
+            <feature>Камера: 48 МП</feature>
+            <feature>Батарея: 3200 мА·ч</feature>
+        </features>
+    </product>
+    <product id="102">
+        <name>Samsung Galaxy S24 Ultra</name>
+        <oldprice>4200</oldprice>
+        <newprice>3100</newprice>
+        <image>images/samusngs24.webp</image>
+        <alt>Samsung Galaxy S24 Ultra</alt>
+        <features>
+            <feature>Дисплей: 6.8", Dynamic AMOLED 2X</feature>
+            <feature>Процессор: Snapdragon 8 Gen 3</feature>
+            <feature>Камера: 200 МП</feature>
+            <feature>Батарея: 5000 мА·ч</feature>
+        </features>
+    </product>
+    <product id="103">
+        <name>OnePlus 13</name>
+        <oldprice>3000</oldprice>
+        <newprice>2200</newprice>
+        <image>images/oneplus13.png</image>
+        <alt>OnePlus 13</alt>
+        <features>
+            <feature>Дисплей: 6.7", AMOLED</feature>
+            <feature>Процессор: Snapdragon 8 Gen 3</feature>
+            <feature>Камера: 50 МП</feature>
+            <feature>Батарея: 5500 мА·ч</feature>
+        </features>
+    </product>
+    <product id="104">
+        <name>CMF Buds Pro 2</name>
+        <oldprice>250</oldprice>
+        <newprice>180</newprice>
+        <image>images/cmf.jpg</image>
+        <alt>CMF Buds Pro 2</alt>
+        <features>
+            <feature>Звук: 11мм драйвер</feature>
+            <feature>Шумоподавление: ANC 50 дБ</feature>
+            <feature>Время работы: до 36 ч</feature>
+        </features>
+    </product>
+    <product id="105">
+        <name>Apple AirPods Pro 2</name>
+        <oldprice>750</oldprice>
+        <newprice>580</newprice>
+        <image>images/airpods2.jpg</image>
+        <alt>Apple AirPods Pro 2</alt>
+        <features>
+            <feature>Чип: H2</feature>
+            <feature>Шумоподавление: активное</feature>
+            <feature>Время работы: до 30 ч</feature>
+        </features>
+    </product>
+    <product id="106">
+        <name>Redragon Blazar GM300</name>
+        <oldprice>180</oldprice>
+        <newprice>140</newprice>
+        <image>images/redragon.webp</image>
+        <alt>Redragon Blazar GM300</alt>
+        <features>
+            <feature>Тип: конденсаторный USB</feature>
+            <feature>Качество: 48kHz/16bit</feature>
+            <feature>В комплекте: штатив и поп-фильтр</feature>
+        </features>
+    </product>
+</products>

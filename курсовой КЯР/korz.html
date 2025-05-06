@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Корзина</title>
+<link rel="stylesheet" href="css/korz.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Корзина</h1>
+
+        <div class="checkout-steps">
+            <div class="step active">Корзина</div>
+            <div class="step">Доставка</div>
+            <div class="step">Оплата</div>
+            <div class="step">Подтверждение</div>
+        </div>
+
+        <div class="cart-layout">
+            <div class="cart-left">
+                <div id="cart-items">
+                </div>
+                <h2 id="total-price">Итого: 0 BYN</h2>
+                <button onclick="clearCart()">Очистить корзину</button>
+                <a href="telephon_main.html" class="btn-continue">← Продолжить покупки</a>
+            </div>
+
+            <div class="cart-right">
+                <h3>Пожелания к заказу</h3>
+                <textarea placeholder="Например: позвоните перед доставкой" rows="8"></textarea>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-container">
+            <div>
+                <h3>Есть предложения или вопросы?</h3>
+                <p>Напишите нам!</p>
+                <p><strong>+375 (25) 544-47-13</strong></p>
+            </div>
+            <div>
+                <h3>Сделать заказ:</h3>
+                <p>A1: +375 44 544-47-13</p>
+                <p>MTC: +375 33 544-47-13</p>
+                <p>life:) +375 25 544-47-13</p>
+            </div>
+            <div>
+                <h3>Режим работы:</h3>
+                <p>ПН-ПТ: 9:00-20:00</p>
+                <p>СБ-ВС: 10:00-18:00</p>
+            </div>
+        </div>
+                <div class="github-link">
+                    <p>Мы в GitHub</p>
+                    <a href="https://github.com/8dss" target="_blank">
+                        <img src="images/git.png" alt="GitHub" width="40" height="40">
+                    </a>
+                </div>
+                </div>
+    </footer>
+
+    <script src="js/korz.js"></script>
+</body>
+
+</html>

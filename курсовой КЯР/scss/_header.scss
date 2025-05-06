@@ -1,0 +1,111 @@
+$font-family: Arial, sans-serif;
+$bg-color: #f5f5f5;
+$header-bg: #333;
+$header-text: #fff;
+$link-hover: #f01010e8;
+$nav-link-color: #fff;
+$nav-hover-underline: #1e74f5;
+$dropdown-bg: #444;
+$dropdown-hover: #555;
+$container-width: 90%;
+$transition: 0.3s ease;
+
+@mixin flex-center($gap: 0) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: $gap;
+}
+
+body {
+    font-family: $font-family;
+    margin: 0;
+    padding: 0;
+    background-color: $bg-color;
+}
+
+a {
+    font-size: 26px;
+    color: inherit;
+    text-decoration: none;
+}
+
+header {
+    background: $header-bg;
+    color: $header-text;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.container {
+    width: $container-width;
+    margin: 0 auto;
+}
+
+nav {
+    ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        @include flex-center(20px);
+
+        li {
+            position: relative;
+
+            a {
+                color: $nav-link-color;
+                padding: 10px 15px;
+                display: block;
+                position: relative;
+                transition: color $transition, transform $transition;
+
+                &::after {
+                    content: "";
+                    position: absolute;
+                    bottom: 5px;
+                    left: 15%;
+                    width: 70%;
+                    height: 2px;
+                    background: $nav-hover-underline;
+                    transform: scaleX(0);
+                    transform-origin: left;
+                    transition: transform $transition;
+                }
+
+                &:hover {
+                    color: $link-hover;
+                    transform: translateY(-2px);
+
+                    &::after {
+                        transform: scaleX(1);
+                    }
+                }
+            }
+        }
+    }
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: $dropdown-bg;
+    border-radius: 8px;
+    z-index: 100;
+
+    li a {
+        font-size: 18px;
+        padding: 12px 16px;
+        color: $header-text;
+        display: block;
+
+        &:hover {
+            background-color: $dropdown-hover;
+        }
+    }
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
